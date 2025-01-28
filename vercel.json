@@ -1,0 +1,48 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "/404.html",
+      "statusCode": 403
+    },
+    {
+      "source": "/nonexistent-path",
+      "destination": "/404.html",
+      "statusCode": 404
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/page60127335.html"
+    },
+    {
+      "source": "/apartment",
+      "destination": "/page60128053.html"
+    },
+    {
+      "source": "/apartment/",
+      "destination": "/page60128053.html"
+    },
+    {
+      "source": "/apartment/user_manual",
+      "destination": "/page60129407.html"
+    },
+    {
+      "source": "/apartment/user_manual/",
+      "destination": "/page60129407.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        }
+      ]
+    }
+  ]
+}
+
